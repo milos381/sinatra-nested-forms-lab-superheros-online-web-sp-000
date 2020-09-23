@@ -6,6 +6,6 @@ class Team
       @motto = params[:motto]
     end
     def self.all
-      @@all << self
+      @@all
     end
   end
